@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- I have worked on this code as a workshop assignment and acknowledge receiving support from and/or working/collaborating with instructors/classmates, generally as is expected from being a participant in the workshop -->
+<!-- I worked on this code as part of a coding bootcamp curriculum. I only followed along with the instructions (i.e. followed/copied instructions from the course and didn't design things from scratch myself) while writing code in this project.
+     Moreover, I  acknowledge receiving support from and/or working/collaborating with instructors/classmates, generally as is expected from being a participant in the coding bootcamp -->
 
 
 <head>
@@ -19,7 +20,7 @@
 
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.scss" />
     <title>Nucamp: A Better Way To Camp</title>
 </head>
 
@@ -30,7 +31,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/logo.png" class="img-fluid">
+                    
                 </div>
                 <div class="col">
                     <h1>Nucamp</h1>
@@ -218,8 +219,31 @@
                         <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
                     </div>
                 </div>
-            </div> 
+
         </section>
+
+        <!-- Review Section -->
+
+        <div class="row row-content align-items-start review-section mb-3">
+            <div class="col-sm-4 col-md-3 order-sm-first">
+                <h2>What Happy Campers Are Saying?</h2>
+            </div>
+
+            <div class="col ms-lg-5">
+
+                <img class="img-fluid img-thumbnail" src="./img/happy-campers.jpg" alt="picture of two campers" />
+            </div>
+
+            <div class="col">
+                <h3>So Worth it!</h3>
+
+                <p>"We had a blast as we embarked on a wild adventure amidst nature's embrace, where s'mores and laughter under starlit skies became our daily ritual, creating memories that will last us forever."</p>
+            </div>
+
+            <div  class="d-flex justify-content-center mt-5">
+                <button class="capsite-btn">Reserve Campsite</button>
+            </div>
+        </div> 
 
         <section class="row row-content">
             <div class="col-sm-9 mx-auto">
@@ -263,7 +287,7 @@
 
                             <div class="row mb-3">
                                 <div class="col-sm-6">
-                                    <button class="btn btn-primary" label="Search" type="submit" style="bg-primary">Search</button>
+                                    <button class="btn btn-primary" label="Search" type="submit"  >Search</button>
                                 </div>
                             </div>
                             
