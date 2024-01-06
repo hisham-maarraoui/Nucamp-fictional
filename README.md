@@ -1,6 +1,6 @@
 <body> 
 
-Project URL: https://nucampsite-fictional.web.app/aboutus.html .
+Project URL: https://nucampsite-fictional.web.app .
 
 I worked on this code as part of a coding bootcamp curriculum. 
      
